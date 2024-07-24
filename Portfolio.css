@@ -8,7 +8,9 @@
   scroll-behavior: smooth;
   outline: none;
 }
-
+body{
+  overflow-x: hidden;
+}
 :root{
   --bg-color: #1f242d;
   --second-bg-color: #323946;
@@ -487,6 +489,13 @@ span{
  }
 }
 @media (max-width: 365px){
+  .menu-icon{
+    position: absolute;
+    right: 20px;
+    display: block;
+    cursor: pointer;
+  }
+  
   .home-img .profile-photo{
     height: 300px;
     width: 230px;
@@ -504,4 +513,10 @@ span{
     text-align: center;
     margin-top: 2rem;
   }
+   .services-container .services-box{
+    height: 42rem;
+ }
+ .about-content h2 {
+  margin-bottom: 5rem;
+ }
 }
