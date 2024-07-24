@@ -419,7 +419,7 @@ span{
    top: 100%;
    left: 0;
    width: 100%;
-   padding: 0 3%;
+   padding: 0 10%;
    background: var(--bg-color);
    border-top: .1rem solid rgba(0, 0, 0, .2);
    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
@@ -429,6 +429,7 @@ span{
   }
   .navbar.active{
     height: 50vh;
+    border-bottom: 3px solid var(--main-color);
   }
   .navbar a{
     display: block;
@@ -517,12 +518,14 @@ span{
     padding-left: 3rem;
   }
   .home-content h1{
-    font-size: 35px;
+    font-size: 32px;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
   }
   .home-content p{
     width: 95%;
     line-height: 3.5rem;
-    font-size: 16px;
+    margin-bottom: 1.5rem;
   }
    .services-container .services-box{
     height: 42rem;
@@ -530,4 +533,9 @@ span{
  .about-content h2 {
   margin-bottom: 5rem;
  }
+  .navbar a{
+  display: block;
+  font-size: 3.5rem;
+  margin: 4rem 0;
+}
 }
