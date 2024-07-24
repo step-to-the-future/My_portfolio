@@ -71,6 +71,15 @@ body{
   display: none;
 }
 
+.social-media{
+  display: flex;
+  margin-top: 5rem;
+  align-items: center;
+}
+.social-media .btn{
+  margin-left: 5rem;
+}
+
 .tg-icon{
   height: 45px;
   width: 45px;
@@ -538,4 +547,10 @@ span{
   font-size: 3.5rem;
   margin: 4rem 0;
 }
+.social-media{
+  display: flex;
+  margin-top: 2rem;
+  align-items: center;
+}
+  
 }
