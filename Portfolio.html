@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width, initial-scale=1.0">
+    <link href="portfolio.css" rel="stylesheet" type="text/css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+
+<!--         Header section design          -->
+
+    <header class="header">
+      <a href="#" class="logo">Portfolio</a>
+
+      <img src="text.png" id="menu-icon" class="menu-icon" onclick="toggleanswer()">
+
+      <nav class="navbar">
+        <a href="#home" class="active">Главная</a>
+        <a href="#about">Обо мне</a>
+        <a href="#services">Услуги</a>
+        <a href="#portfolio">Портфолио</a>
+        <a href="#contact">Связаться</a>
+      </nav>
+    </header>
+
+<!--          Home section design     -->
+
+      <section class="home" id="home">
+        <div class="home-content" data-aos="fade-down" data-aos-duration="1000">
+          <h3>Привет, меня зовут</h3>
+          <h1 data-aos="fade-right" data-aos-duration="1000">Гулямов Абдулазиз</h1>
+          <h3>И я <span class="multiple-text"></span></h3>
+          <p data-aos="fade-left" data-aos-duration="1000">Я веб-разработчик с опытом работы 1 год.  Мои специализации включают 
+            разработку пользовательских интерфейсов с 
+            использованием HTML, CSS и JavaScript. 
+            Я создаю современные и адаптивные веб-приложения, стремясь к высокому качеству
+          </p>
+          <div class="social-media">
+            <a href="" data-aos="flip-right" data-aos-duration="3000"><img src="teleg4.png" class="tg-icon"></a>
+            <a href="" data-aos="flip-left" data-aos-duration="3000"><img src="inst2.png" class="inst-icon"></a>
+          </div>
+          <a href="#" class="btn">Скачать CV</a>
+        </div>
+
+        <div class="home-img" data-aos="fade-up" data-aos-duration="1000">
+          <img src="па-removebg.png" class="profile-photo">
+        </div>
+      </section>
+  
+<!--    about section design  -->
+    <section class="about" id="about">
+      <div class="home-img" data-aos="fade-right" data-aos-duration="1000">
+        <img src="па-removebg.png" class="profile-photo2">
+      </div>
+
+      <div class="about-content" data-aos="fade-left" data-aos-duration="1000">
+        <h2 class="heading" data-aos="fade-down" data-aos-duration="1000">Обо <span>Мне</span></h2>
+        <h3>Проекты:</h3>
+        <p>У меня было 2 полностью завершённых проекта, один из которых это сервис для 
+          логистических компаний "T&M Financial", 
+          а другой для курсов "Учебный центр 100%". 
+          В этих проектах я использовал свои навыки веб-разработки для создания современных и функциональных веб-сайтов.</p>
+          <h3>Образование:</h3>
+        <p>Студент 2-го курса Alfraganus University
+
+          Направление: программный инженеринг. Принимал участие в совместных 
+          проектах для создание веб-приложения управляющий задачами и проектами с возможностью
+           распределения ролей и отслеживания прогресса.
+        
+           <h3>Курсы и сертификаты:</h3>
+           <p>Прошел курсы по разработки веб-приложений. 
+            Получил сертификат по основам сетевых технологий и информационной безопасности.
+      </div>
+    </section>
+
+    <!--   Services section design     -->
+       <section class="services" id="services">
+        <h2 class="heading" data-aos="fade-down" data-aos-duration="1000">Мои <span>Услуги</span></h2>
+
+      <div class="services-container" data-aos="fade-up" data-aos-duration="1000">
+        <div class="services-box">
+          <img src="programming.png"  class="programming">
+          <h3>Веб-разработка</h3>
+          <p>В рамках веб-разработки я предоставляю полный спектр услуг, включая: 
+            Разработка адаптивных веб-сайтов с использованием современных технологий, таких как HTML5, CSS3 и JavaScript. 
+            Создание динамичных и интерактивных веб-приложений с применением фреймворков React.js, Vue.js или Angular.
+          </p>
+        </div>
+
+        <div class="services-box">
+          <img src="problem-solving.png"  class="programming">
+          <h3>Креативный дизайн</h3>
+          <p>Разработка анимаций, проектирование привлекательных и 
+             функциональных пользовательских интерфейсов для веб-сайтов.
+             Создание адаптивного дизайна, который обеспечивает комфортное использование на всех типах устройств.
+          </p>
+        </div>
+      </div>  
+
+       </section>
+
+
+     <!--    Portfolio section design-->
+   <section class="portfolio" id="portfolio">
+    <h2 class="heading" data-aos="fade-down" data-aos-duration="1000">Последние <span>Проекты</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box" data-aos="fade-up" data-aos-duration="1000">
+        <img src="latest.jpg" class="chiki">
+        <div class="portfolio-layer">
+          <a href="#">T&M Financial<img src="link2.png" class="icon-link"></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box" data-aos="fade-up" data-aos-duration="1000">
+        <img src="second.webp" class="chiki">
+        <div class="portfolio-layer">
+          <a href="#">Учебный центр 100%<img src="link2.png" class="icon-link"></a>         
+        </div>
+      </div>
+  
+
+    </div>
+
+   </section>
+
+   <!--           CONTACT SECTION DESIGN               -->
+   <section class="contact" id="contact">
+    <h2 class="heading" data-aos="fade-down" data-aos-duration="1000">Contact<span> Me!</span></h2>
+
+    <form action="#" data-aos="fade-up" data-aos-duration="1000">
+      <div class="input-box">
+        <input type="text" placeholder="Ваше Имя">
+        <input type="number" placeholder="Ваш номер телефона">
+        <textarea name="" id="" cols="20" rows="8" placeholder="Ваше сообщение"></textarea> 
+      </div>
+      <input type="submit" value="Отправить" class="btn">
+    </form>
+   </section>
+
+   <!--    Footer design      -->
+
+   <footer class="footer">
+    <div class="footer-text">
+      <p>Какой нибудь номер телефона </p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><img src="arrow-up.png"></a>
+    </div>
+   </footer>
+
+   <!--     Typing script  -->
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+   <!--      Animation on Scroll-->
+
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init();
+   </script>     
+
+   <script src="Portfolio.js"></script>
+
+  </body>
+</html>
