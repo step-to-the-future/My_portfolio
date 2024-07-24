@@ -513,6 +513,16 @@ span{
     text-align: center;
     margin-top: 2rem;
   }
+  .home{
+    padding-left: 3rem;
+  }
+  .home-content h1{
+    font-size: 35px;
+  }
+  .home-content p{
+    width: 95%;
+    font-size: 16px;
+  }
    .services-container .services-box{
     height: 42rem;
  }
