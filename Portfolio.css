@@ -521,6 +521,7 @@ span{
   }
   .home-content p{
     width: 95%;
+    line-height: 3.5rem;
     font-size: 16px;
   }
    .services-container .services-box{
