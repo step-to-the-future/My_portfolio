@@ -29,7 +29,7 @@ window.onscroll = () =>{
 
 /*     Typing script     */
 const typed = new Typed('.multiple-text', {
-  strings: ['Front-tend разработчик', 'Имею инстаграм канал,', 'Телеграмм канал'],
+  strings: [' Я Front-tend разработчик', 'У меня есть инстаграм канал,', 'также Телеграмм канал'],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
