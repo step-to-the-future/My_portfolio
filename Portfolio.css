@@ -430,6 +430,11 @@ span{
     height: 20px;
     width: 20px;
   }
+  .none{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+  }
   .navbar {
    position: absolute;
    top: 100%;
@@ -514,6 +519,11 @@ span{
     cursor: pointer;
   }
   
+  .none{
+    height: 45px;
+    width: 45px;
+    margin-right: 10px;
+  }
   .home-img .profile-photo{
     height: 300px;
     width: 230px;
